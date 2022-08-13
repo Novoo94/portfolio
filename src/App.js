@@ -45,7 +45,7 @@ function App() {
         {/* two buttoms to update value of click count  */}
         <button onClick={decrementCount}>-</button>
         {/* need input for searching */}
-      </div>
+      </div> 
 
     </div >
 
