@@ -1,5 +1,17 @@
 // import logo from './logo.svg';
+
 import './App.css';
+import '.Contact.css'
+import '.About.css'
+
+import { Routes, Route,} from "react-router-dom";
+import Contact from './components/Contact';
+import Projects from './components/Projects'
+import About from './components/About'
+
+
+
+
 import flash from './flash.gif'
 import bugs from './bugs.gif'
 import { useState } from 'react'
@@ -46,7 +58,14 @@ function App() {
         <button onClick={decrementCount}>-</button>
         {/* need input for searching */}
       </div> 
-
+<div>
+<Routes>
+        <Route path="/" element={<Portfolio/>} />
+        <Route path="Projects" element={<Projects/>} />
+        <Route path="Contacts" element={<Contact/>}/>
+        <Route path="About" element={<About/>}/>
+      </Routes>
+</div>
     </div >
 
   );
