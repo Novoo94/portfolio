@@ -10,8 +10,8 @@ function About() {
         </h1>
         <div id='Photo'>
             {/* add Photo of myself/Toby */}
-            <img src = {photo}/>
-            <img src =  {Art}/>
+            <img src = {photo} alt= "selfie"/>
+            <img src =  {Art} alt="artwork"/>
 
 
         </div>

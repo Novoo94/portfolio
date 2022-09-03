@@ -8,14 +8,14 @@ function Contact() {
 
         <div className="links">
             <div className='image'>
-                <img src={Github} />
+                <img src={Github} alt= "github" />
             </div>
             <a href="https://github.com/Novoo94" target={'_blank'} rel="noopener noreferrer">Github</a>
         </div>
 
         <div>
             <div className='image'>
-                <img src={Linkedin} />
+                <img src={Linkedin} alt="Linkedin"/>
             </div>
 
             <a className="linkedin" href="https://www.linkedin.com/in/odalis-novoa-reyes/" target={'_blank'} rel="noopener noreferrer">Linkedin</a>

@@ -5,7 +5,6 @@ import { Routes, Route, } from "react-router-dom";
 import Contact from './components/Contact/Contact';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
-// import { useState } from 'react'
 import Home from './components/Home/Home';
 
 function App() {

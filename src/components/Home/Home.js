@@ -3,7 +3,7 @@ import Profile from './black profile.jpeg'
 function Home() {
     return <div className='homepage'>
         <div className='image'> 
-            <img src={Profile}/>
+            <img src={Profile} alt= "BlankProfile"/>
         </div>
 
         <h1 className="header"> Hi, My Name is Odalis Novoa Reyes</h1>

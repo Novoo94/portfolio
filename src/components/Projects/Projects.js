@@ -7,7 +7,7 @@ function Projects() {
     return <div>
         <h1>Some of my work! </h1>
         <div className='Calc'>
-            <img src={Calculator}/>
+            <img src={Calculator} alt="calculator"/>
 
             <h2>Calculator</h2>
             <p>Use of HTML, JS, and CSS. Based on the knowledge that we had learned
@@ -15,12 +15,12 @@ function Projects() {
                 the calculator should be able to multiply, divide, add and subtract.   </p>
         </div>
         <div id='Game'>
-            <img src={Game}/>
+            <img src={Game} alt="flappy bird"/>
             <h2> Game </h2>
             <p>using Canvas and/or Javascript, we were giving the assignment to recreate or make our own game! </p>
         </div>
         <div id='FutureProjects'>
-        <img src ={FutureProjects}/>
+        <img src ={FutureProjects} alt="coming soon"/>
         <h1>Future Projects</h1>
         <p>And the journey continues...</p>
 
