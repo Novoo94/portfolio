@@ -11,18 +11,23 @@ import Home from './components/Home/Home';
 function App() {
 
   return (
-    <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contacts" element={<Contact />} />
-        <Route path="/about" element={<About />} />
 
-      </Routes>
+
+    <div className="App">
+      <div>
+        <Navbar />
+      </div>
+      <div className='container'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contacts" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+
 
     </div>
-
   );
 };
 

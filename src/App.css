@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: right;
 background-color: rgb(215, 172, 255);
 }
 
@@ -9,5 +9,12 @@ background-color: rgb(215, 172, 255);
   /* justify-content: center; */
   justify-content:space-around;
   width:900px;
-  background-color: rgb(159, 56, 255);
+  /* background-color: rgb(159, 56, 255); */
+}
+
+.container{
+  background-color: rgba(168, 216, 255, 0.415);
+  text-align: center;
+  border: 3px solid green;
+  
 }

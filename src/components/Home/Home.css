@@ -1,4 +1,8 @@
-h1.header{
-color: blueviolet;
+.homepage{
+    background-color:rgba(0, 255, 255, 0.29);
 }
-
+/* .image{
+    text-align: right;
+    width: 30px;
+    height: 50px;
+} */
